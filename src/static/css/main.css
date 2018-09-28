@@ -2,3 +2,46 @@
 margin-bottom: 25px;
 
 }
+.cart {
+    border: .05em solid lightgray;
+    border-radius: 0.65em;
+    position:relative;
+    min-height: 4em;
+}
+.cart-title {
+    text-align: center;
+    border-bottom: .05em solid lightgray;
+    margin-bottom:.150em;
+}
+.cart-total {
+    text-align: center;
+    border-top: .05em solid grey;
+    position:relative;
+    min-height: 2em;
+}
+.tp{
+    float:left;
+}
+
+.product-row {
+    padding:.150em 0em .150em;
+    min-height: 2em;
+}
+.product-image{
+    padding-right:0px;
+    padding-left:1em;
+}
+.prod-name{
+    padding-left: .313em;
+    padding-right: .313em;
+
+}
+.prod-q {
+    padding-right: .313em;
+    padding-left: 0em;
+}
+.prod-p{
+    padding-right: .313em;
+    padding-left: .313em;
+    
+}
