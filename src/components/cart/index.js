@@ -4,7 +4,7 @@ import CartItem from './cartitem.js'
 export default class Cart extends Component {
   render() {
     return (
-      <div className='cart container'>
+      <div className='cart container f'>
         <div className='cart-title'>Jim's Cart</div>
             {this.props.cartItems.items.map(item => <CartItem key={item.id} item={item} />)}
         <div className='cart-total'>

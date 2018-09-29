@@ -1,3 +1,4 @@
+
 .pushy {
 margin-bottom: 25px;
 
@@ -5,8 +6,15 @@ margin-bottom: 25px;
 .cart {
     border: .05em solid lightgray;
     border-radius: 0.65em;
-    position:relative;
     min-height: 4em;
+    position:static;
+    top:1em;
+}
+
+.sticky{
+    top: 1em;
+    position:fixed;
+    max-width: 25%;
 }
 .cart-title {
     text-align: center;
@@ -27,6 +35,7 @@ margin-bottom: 25px;
     padding:.150em 0em .150em;
     min-height: 2em;
 }
+
 .product-image{
     padding-right:0px;
     padding-left:1em;

@@ -10,7 +10,7 @@ class App extends Component {
   
   render() {
     return (
-      <div>
+      <div className='main'>
         < Nav />
         <div className="container">
           <div className="row">
@@ -23,3 +23,5 @@ class App extends Component {
 }
 
 export default App;
+
+
